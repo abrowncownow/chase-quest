@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todos/new
+Content-Type: application/json
+
+{
+    "text" : "Done test"
+}
+
+###
+
+DELETE http://localhost:3001/todos/delete/63f6a8db4f90089bcc116965
+
+###
+
+PUT http://localhost:3001/todos/complete/63f6a9f7d3f51880edcbdaff
