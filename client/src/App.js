@@ -54,11 +54,10 @@ function App() {
 				}
 			</div>
 			<div className='addPopup' onClick={()=> setPopupActive(true)}>+</div>
-			{popupActive ? (
-				<div className='popup'>
-					test
-				</div>
-	): ''}	
+			<div className='gameContainer'>
+			<iframe title='ChaseQuest' src="./game/page.html" style={{ width: '100%', height: '800px' }}></iframe>
+
+			</div>
 		</div>
 	);
 }
